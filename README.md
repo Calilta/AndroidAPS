@@ -7,8 +7,8 @@
 [![Build status](https://travis-ci.org/MilosKozak/AndroidAPS.svg?branch=master)](https://travis-ci.org/MilosKozak/AndroidAPS)
 [![Crowdin](https://d322cqt584bo4o.cloudfront.net/androidaps/localized.svg)](https://translations.androidaps.org/project/androidaps)
 [![Documentation Status](https://readthedocs.org/projects/androidaps/badge/?version=latest)](https://androidaps.readthedocs.io/en/latest/?badge=latest)
-[![codecov](https://codecov.io/gh/MilosKozak/AndroidAPS/branch/master/graph/badge.svg)](https://codecov.io/gh/MilosKozak/AndroidAPS)
-dev: [![codecov](https://codecov.io/gh/MilosKozak/AndroidAPS/branch/dev/graph/badge.svg)](https://codecov.io/gh/MilosKozak/AndroidAPS)
+[![Coverage Status](https://coveralls.io/repos/github/MilosKozak/AndroidAPS/badge.svg?branch=master)](https://coveralls.io/github/MilosKozak/AndroidAPS?branch=master)
+DEV: [![Coverage Status](https://coveralls.io/repos/github/MilosKozak/AndroidAPS/badge.svg?branch=dev)](https://coveralls.io/github/MilosKozak/AndroidAPS?branch=dev)
 
 
 [![Donate via PayPal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=Y4LHGJJESAVB8)

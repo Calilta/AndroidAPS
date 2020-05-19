@@ -17,11 +17,20 @@ apply plugin: 'kotlin-kapt'
 apply plugin: 'com.google.gms.google-services'
 apply plugin: 'io.fabric'
 apply plugin: 'jacoco-android'
-apply plugin: 'de.undercouch.download'
+apply plugin: 'com.github.kt3k.coveralls'
 
 
 jacoco {
     toolVersion = "0.8.3"
+}
+
+coveralls {
+    jacocoReportPath = "${buildDir}/reports/coverage/debug/report.xml"
+}
+
+tasks.coveralls {
+    dependsOn 'testFullDebugUnitTest'
+    onlyIf { System.env.'CI' }
 }
 
 ext {
