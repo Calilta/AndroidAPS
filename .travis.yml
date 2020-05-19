@@ -19,6 +19,7 @@ before_install:
 
 script:
   # Unit Test
+  - ./gradlew check
   - ./gradlew -Pcoverage -PfirebaseDisable testFullDebugUnitTest jacocoTestFullDebugUnitTestReport
 
 after_success:
